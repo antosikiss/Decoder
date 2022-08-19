@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+*{
+    background: black;
+    text-align: center;
+    cursor: url('mario.png'), pointer;
+}
+
+
+.btn{
+    margin-bottom: 20px;
+}
+
+
+#encode , #decode{
+    font-weight: bold;
+    color: #fff;
+    font-size: 1vw;
+}
+
+#encode:hover,
+#encode.active{
+    background: #fff;
+    color: #2b1055;
+
+}
+
+#decode:hover,
+#decode.active{
+    background: #fff;
+    color: #2b1055;
+
+}
+
+
+
+.text{
+    background: #fff;
+}
+
+#text:hover,
+#text.active{
+    background: #fff;
+    color: green;
+
+}
+
+
+.byanthony{
+    font-family: 'Silkscreen', cursive;
+    color: #fff;
+}
